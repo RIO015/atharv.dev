@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Atharv Ponkshe — Developer, QA and Automation portfolio.">
+  <title>Atharv Ponkshe | Developer & QA</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="noise"></div>
+  <div class="cursor-glow"></div>
+
+  <header class="navbar" id="navbar">
+    <a href="#home" class="brand">AP<span>.</span></a>
+    <nav class="nav-links">
+      <a href="#about">About</a><a href="#skills">Skills</a><a href="#projects">Projects</a>
+      <a href="#experience">Experience</a><a href="#contact">Contact</a>
+    </nav>
+    <button class="menu-btn" id="menuBtn" aria-label="Open menu" aria-expanded="false" aria-controls="mobileMenu"><span></span><span></span></button>
+  </header>
+
+  <div class="mobile-menu" id="mobileMenu">
+    <a href="#about">01 — About</a><a href="#skills">02 — Skills</a><a href="#projects">03 — Projects</a>
+    <a href="#experience">04 — Experience</a><a href="#contact">05 — Contact</a>
+  </div>
+
+  <main>
+    <section class="hero" id="home">
+      <div class="hero-grid"></div>
+      <div class="hero-content reveal">
+        <div class="availability"><span class="status-dot"></span> OPEN TO WORK</div>
+        <p class="hero-index">01 / PORTFOLIO</p>
+        <h1>Atharv<br><span>Ponkshe</span></h1>
+        <div class="hero-role">Developer <b>·</b> QA & Testing <b>·</b> Automation</div>
+        <p class="hero-description">B.Tech ECE graduate exploring software through development, manual testing and automation.</p>
+        <div class="hero-actions">
+          <a href="#projects" class="btn btn-primary">View my work <span>↗</span></a>
+          <a href="#contact" class="btn btn-outline">Let's talk</a>
+        </div>
+      </div>
+
+      <div class="hero-art reveal">
+        <div class="orbit orbit-one"></div><div class="orbit orbit-two"></div>
+        <div class="floating-card card-build">&lt; build /&gt;<small>development</small></div>
+        <div class="floating-card card-test">✓ test passed<small>manual testing</small></div>
+        <div class="code-window">
+          <div class="window-top"><i></i><i></i><i></i><span>atharv.js</span></div>
+          <pre><span>01</span> const <em>focus</em> = [
+<span>02</span>   "development",
+<span>03</span>   "testing",
+<span>04</span>   "learning"
+<span>05</span> ];</pre>
+        </div>
+      </div>
+    </section>
+
+    <section class="section about" id="about">
+      <div class="section-label">02 / ABOUT</div>
+      <div class="about-grid">
+        <div><h2>A little about<br><span>me.</span></h2></div>
+        <div class="about-copy">
+          <p>I’m Atharv, a B.Tech Electronics & Communication Engineering graduate who moved deeper into software development and software testing.</p>
+          <p>I’ve worked on development projects, practiced manual testing, and built my foundation in Java, web technologies and SQL. I like understanding how something is built and then checking whether it actually works the way it should.</p>
+          <div class="mini-facts"><span>2025</span><span>B.Tech ECE</span><span>Developer + QA</span></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="skills">
+      <div class="section-label">03 / SKILLS</div>
+      <div class="section-heading"><h2>Things I<br><span>work with.</span></h2><p>Tools and concepts I’ve learned through courses, projects and hands-on practice.</p></div>
+      <div class="skills-grid">
+        <article class="skill-card"><span>01</span><h3>Java</h3><p>Core Java · OOP · problem solving</p></article>
+        <article class="skill-card"><span>02</span><h3>Web Development</h3><p>HTML · CSS · JavaScript · responsive UI</p></article>
+        <article class="skill-card"><span>03</span><h3>SQL</h3><p>Queries · joins · data handling</p></article>
+        <article class="skill-card"><span>04</span><h3>Manual Testing</h3><p>Test cases · functional · regression · UI</p></article>
+        <article class="skill-card"><span>05</span><h3>Bug Reporting</h3><p>Defect identification · reporting · retesting</p></article>
+        <article class="skill-card"><span>06</span><h3>Automation Basics</h3><p>Understanding of automation testing concepts</p></article>
+      </div>
+    </section>
+
+    <section class="section projects" id="projects">
+      <div class="section-label">04 / PROJECTS</div>
+      <div class="section-heading"><h2>Selected<br><span>work.</span></h2><p>A mix of development and software testing work.</p></div>
+      <div class="project-list">
+        <article class="project-card reveal">
+          <div class="project-no">01</div><div class="project-main"><div class="project-meta">DEVELOPMENT · WEB</div><h3>SGU Student Portal</h3><p>A student-focused web portal developed with HTML, CSS and JavaScript. Includes login, event registration, announcements, downloads and a simple dashboard experience.</p><div class="tags"><span>HTML</span><span>CSS</span><span>JavaScript</span><span>LocalStorage</span></div></div><div class="project-arrow">↗</div>
+        </article>
+        <article class="project-card reveal">
+          <div class="project-no">02</div><div class="project-main"><div class="project-meta">DEVELOPMENT · FRONTEND</div><h3>Personal Portfolio Website</h3><p>A responsive portfolio built with HTML, CSS and JavaScript to present my skills, projects, education and experience with a clean and simple interface.</p><div class="tags"><span>HTML</span><span>CSS</span><span>JavaScript</span><span>Responsive UI</span></div></div><div class="project-arrow">↗</div>
+        </article>
+        <article class="project-card reveal">
+          <div class="project-no">03</div><div class="project-main"><div class="project-meta">TESTING · E-COMMERCE</div><h3>E-Commerce Application Testing</h3><p>Created and executed test cases for login, registration, cart and checkout flows. Covered functional, UI and regression testing with severity, priority and expected results.</p><div class="tags"><span>Manual Testing</span><span>Test Cases</span><span>Functional</span><span>Regression</span></div></div><div class="project-arrow">↗</div>
+        </article>
+        <article class="project-card reveal">
+          <div class="project-no">04</div><div class="project-main"><div class="project-meta">TESTING · WEB APP</div><h3>ShopperStack Testing</h3><p>Worked on test scenarios for a shopping web application, covering account creation, login, product flows and admin-related scenarios with expected results and functional checks.</p><div class="tags"><span>Manual Testing</span><span>Test Scenarios</span><span>Bug Reporting</span><span>Web Testing</span></div></div><div class="project-arrow">↗</div>
+        </article>
+      </div>
+    </section>
+
+    <section class="section journey" id="experience">
+      <div class="section-label">05 / EXPERIENCE</div>
+      <div class="section-heading"><h2>My<br><span>journey.</span></h2><p>Where I’ve been learning and getting hands-on experience.</p></div>
+      <div class="timeline">
+        <article class="timeline-item reveal"><div class="timeline-date">2026 — PRESENT</div><div><h3>AVR — Automation Engineer Trainee</h3><p>Working around home automation systems and learning practical electronics, automation hardware, control systems and day-to-day implementation.</p><div class="tags"><span>Home Automation</span><span>Automation</span><span>Electronics</span></div></div></article>
+        <article class="timeline-item reveal"><div class="timeline-date">2026</div><div><h3>Hi5Ai Retina Pvt. Ltd. — Intern</h3><p>Gaining industry exposure through hands-on work in a software environment and understanding practical workflows, teamwork and project execution.</p><div class="tags"><span>Internship</span><span>Software</span><span>Industry Exposure</span></div></div></article>
+        <article class="timeline-item reveal"><div class="timeline-date">2025 — 2026</div><div><h3>QSpiders — Deccan, Pune</h3><p>Completed training in Java Full Stack Development and Software Testing, covering Java, SQL, HTML, CSS, JavaScript and testing fundamentals.</p><div class="tags"><span>Java Full Stack</span><span>Software Testing</span><span>SQL</span></div></div></article>
+        <article class="timeline-item reveal"><div class="timeline-date">2021 — 2025</div><div><h3>Sanjay Ghodawat University</h3><p>B.Tech in Electronics & Communication Engineering.</p><div class="tags"><span>B.Tech ECE</span><span>2025 Graduate</span></div></div></article>
+      </div>
+    </section>
+
+    <section class="section contact" id="contact">
+      <div class="section-label">06 / CONTACT</div>
+      <div class="contact-box reveal"><div><p class="contact-small">HAVE AN OPPORTUNITY?</p><h2>Let's build<br><span>something useful.</span></h2></div><a class="contact-mail" href="mailto:yourmail@example.com">yourmail@example.com <span>↗</span></a></div>
+      <div class="social-row"><a href="https://github.com/" target="_blank" rel="noreferrer">GitHub ↗</a><a href="https://www.linkedin.com/" target="_blank" rel="noreferrer">LinkedIn ↗</a><a href="#home">Back to top ↑</a></div>
+    </section>
+  </main>
+
+  <footer><span>© 2026 Atharv Ponkshe</span><span>Designed & built with HTML, CSS & JavaScript.</span></footer>
+  <script src="script.js"></script>
+</body>
+</html>
